@@ -16,6 +16,8 @@
 body {
     display: flex;
     justify-content: center;
+    margin: 0;
+    padding: 0;
 }
 
 /* header */
@@ -39,6 +41,10 @@ header nav {
     gap: 68px;
     align-self: flex-start;
     padding-top: 17px;
+}
+
+header nav a {
+    position: relative;
 }
 
 header nav a::after {
@@ -134,9 +140,13 @@ header nav a:hover {
 }
 
 .infofilter .searchbar .button input {
+    border: none;
+    background-color: transparent;
     color: white;
-    display: none;
+    font-size: 18px;
+    font-weight: 700;
 }
+
 
 
 
