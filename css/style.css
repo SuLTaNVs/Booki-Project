@@ -223,11 +223,6 @@ header nav a:hover {
     padding: 3px;
 }
 
-
-
-
-
-
 .main-container {
     width: 100%;
     max-width: 1440px;
@@ -285,7 +280,59 @@ a {
 /****** Hebergements ***********/
 .hebergements {
     width: 65%;
+    display: flex;
+    flex-direction: column;
 }
+
+.hebergements .more {
+    margin-bottom: -10px;
+}
+
+.hcards {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    justify-content: space-between;
+    margin-bottom: -35px;
+}
+
+.hcards article {
+    background-color: red;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    line-height: 0px;
+    height: 200px;
+}
+    
+.hcards article .infos {
+    line-height: 0;
+    padding-left: 10px;
+}
+
+.hcards article .infos p {
+    padding-top: 5px;
+    font-size: 14px;
+}
+
+.hcards article .info .card-rating {
+    padding-top: 7px;
+}
+
+.hcards article img {
+    object-fit: cover;
+    width: 100%;
+    height: 120px;
+    border-radius: 20px 20px 0 0;
+}
+
 
 /****** Populaires ***********/
 .populaires {
@@ -330,6 +377,80 @@ a {
 
 .populaires-cards .card-rating {
     margin-bottom: 5px;
+}
+
+
+.activites {
+    padding-top: 60px;
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    width: 1280px;
+}
+
+.container_activites {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+    width: 100%;
+    height: 440px;
+    gap: 30px;
+}
+
+.activites_card {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 300px;
+    height: 100%;
+    border-radius: 20px;
+    filter: drop-shadow(0 3px 15px rgba(0, 0, 0, 0.1));
+}
+
+.activites_card h3 {
+    padding-left: 20px;
+    padding-top: 3px;
+    font-size: 17px;
+}
+
+.activites_card img {
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
+    border-radius: 20px 20px 0 0;
+}
+
+
+footer {
+    margin-top: 70px;
+    height: 165px;
+    background-color: var(--main-bg-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15%;
+}
+
+footer h3 {
+    font-size: 18px;
+}
+
+footer p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer_column {
+    padding-left: 30px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 0;
+    align-self: flex-start;
 }
 
 
