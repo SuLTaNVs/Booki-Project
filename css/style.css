@@ -99,7 +99,7 @@ header nav a:hover {
     font-size: 20px;
 }
 
-.infofilter .searchbar .icon {
+.infofilter .searchbar .icon i {
     color: black;
 }
 
@@ -148,11 +148,90 @@ header nav a:hover {
 }
 
 
+/* mobile */
+
+.infofilter .searchbar .button i {
+    color: white;
+    display: none;
+}
+
+.infofilter .filters {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    align-items: center;
+    gap: 15px;
+}
+
+.infofilter .filters p {
+    font-weight: 700;
+    font-size: 10px;
+}
+
+.infofilter .filters .filter {
+    min-width: 185px;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #d9d9d9;
+    border-radius: 30px;
+    gap: 12px;
+}
+
+.infofilter .filters .filter i {
+    font-size: 20px;
+}
+
+.infofilter .filters .famil {
+    min-width: 170px;
+}
+
+.infofilter .filters .roman {
+    min-width: 170px;
+}
+
+.infofilter .filters .pepites {
+    min-width: 170px;
+}
+
+.infofilter .filters .filter:hover {
+    background-color: rgba(222, 235, 255, 1);
+    cursor: pointer;
+}
+
+.infofilter .info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+
+}
+
+.infofilter .info i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    width: 18px;
+    height: 18px;
+    border: 2px solid var(--main-bg-color);
+    border-radius: 20px;
+    padding: 3px;
+}
+
+
+
+
 
 
 .main-container {
     width: 100%;
     max-width: 1440px;
+    min-width: 320px;
     padding: 0 50px;
     box-sizing: border-box;
 }
