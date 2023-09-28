@@ -9,10 +9,6 @@
   --filter-bg-color: #deebff;
 }
 
-.fa-solid {
-  color: var(--main-color);
-}
-
 body {
   display: flex;
   justify-content: center;
@@ -72,18 +68,18 @@ nav {
   flex-direction: column;
 }
 
-.infofilter .head a {
+.infofilter .head h1 {
   font-weight: 700;
 }
 
 .infofilter .head p {
-  line-height: 0px;
+  margin-top: 7px;
 }
 
 .infofilter .searchbar {
   display: flex;
   flex-direction: row;
-  margin-top: 22px;
+  margin-top: 15px;
   width: 400px;
 }
 
@@ -177,7 +173,7 @@ nav {
   align-items: center;
   border: 2px solid #d9d9d9;
   border-radius: 30px;
-  gap: 15px;
+  gap: 12px;
 }
 
 .infofilter .filters .filter i {
@@ -189,11 +185,11 @@ nav {
 }
 
 .infofilter .filters .roman {
-  width: 130px;
+  width: 170px;
 }
 
 .infofilter .filters .pepites {
-  width: 130px;
+  width: 170px;
 }
 
 .infofilter .filters .filter:hover {
@@ -220,6 +216,10 @@ nav {
   border: 2px solid var(--main-bg-color);
   border-radius: 20px;
   padding: 3px;
+}
+
+.fa-solid {
+  color: var(--main-color);
 }
 
 .main-container {
@@ -270,7 +270,7 @@ a {
 }
 
 .hebergements-and-populaires section {
-  background-color: var(--main-bg-color);
+  /* background-color: var(--main-bg-color);*/
   border-radius: 20px;
   padding: 30px;
   box-sizing: border-box;
@@ -281,6 +281,7 @@ a {
   width: 65%;
   display: flex;
   flex-direction: column;
+  background-color: var(--main-bg-color);
 }
 
 .hebergements .more {
@@ -288,25 +289,27 @@ a {
 }
 
 .hcards {
-  width: 100%;
-  height: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin-top: 30px;
   justify-content: space-between;
-  margin-bottom: -35px;
+  margin: 30px 0px;
+}
+
+.hcards a {
+  width: 30%;
+  padding: 0 2px;
+  padding-bottom: 30px;
 }
 
 .hcards article {
-  background-color: red;
+  width: 100%;
   background-color: white;
   border-radius: 20px;
   padding: 5px;
   filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
   display: flex;
   flex-direction: column;
-  width: 240px;
   line-height: 0px;
   height: 200px;
 }
@@ -314,6 +317,10 @@ a {
 .hcards article .infos {
   line-height: 0;
   padding-left: 10px;
+}
+
+.hcards article .infos h3 {
+  font-size: 16px;
 }
 
 .hcards article .infos p {
@@ -335,6 +342,7 @@ a {
 /****** Populaires ***********/
 .populaires {
   width: 32%;
+  background-color: var(--main-bg-color);
 }
 
 .populaires-title {
