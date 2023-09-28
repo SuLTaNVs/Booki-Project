@@ -1,1 +1,1 @@
-    First Project of OC
+    First Project of OpenClassrooms
