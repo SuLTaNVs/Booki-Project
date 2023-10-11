@@ -306,7 +306,7 @@ nav {
 }
 
 .hcards article .infos h3 {
-  font-size: 16px;
+  font-size: 0.89rem;
 }
 
 .hcards article .infos p {
@@ -408,7 +408,7 @@ nav {
 /* Activites */
 
 .activite-marseille .section-title {
-  margin: 65px 0px 30px 35px;
+  margin: 65px 0px 30px 28px;
 }
 
 .activites-cards {
@@ -463,6 +463,7 @@ nav {
   flex-direction: row;
   background-color: var(--main-bg-color);
   margin-top: 55px;
+  padding-right: 6%;
 }
 
 .footer-content {
@@ -538,12 +539,6 @@ nav {
 
   .activites-cards .activites-card img {
     height: 200px;
-  }
-}
-
-@media (min-width: 1025px) and (max-width: 1125px) {
-  .hcards article .infos h3 {
-    font-size: 14px;
   }
 }
 
@@ -656,7 +651,7 @@ nav {
   }
 
   .infofilter .filters .filter p {
-    font-size: 0.9rem;
+    font-size: 0.84rem;
   }
 
   /* Main */
